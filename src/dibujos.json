@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "nombre": "Batman",
+      "precio": 6000,
+      "categoria": "blancoynegro",
+      "descripcion":"Dibujo digital hecho en Procreate",
+      "imagen": "https://drive.google.com/file/d/1EKlFTIRKJLHI-_hUwBY-QuxltUiMofpY/view?usp=sharing",
+      "stock": 3
+    },
+    {
+      "id": 2,
+      "nombre": "Lobo",
+      "precio": 6000,
+      "categoria": "color",
+      "descripcion":"Dibujo realizado en Clip Studio Paint",
+      "imagen": "https://drive.google.com/file/d/1KNSFNMe55EY8IfOFikHxZ4GJXQfvoNYr/view?usp=sharing",
+      "stock": 3
+    },
+    {
+      "id": 3,
+      "nombre": "The Thing",
+      "precio": 6000,
+      "categoria": "color",
+      "descripcion":"Ilustración digital pintada en Photoshop",
+      "imagen": "https://drive.google.com/file/d/1lwMr1b1TtuApldWceQhU_hmlyrvNmd6i/view?usp=share_link",
+      "stock": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Jhon Wick",
+      "precio": 3000,
+      "categoria": "blancoynegro",
+      "descripcion":"Realizado en MediBang Paint",
+      "imagen": "https://drive.google.com/file/d/1bk-sNXwelllGyntKVQPyMxkrz35It2pk/view?usp=sharing",
+      "stock": 3
+    },
+    {
+      "id": 5,
+      "nombre": "Ventress",
+      "precio": 4000,
+      "categoria": "color",
+      "descripcion":"Hecho en un software libre llamado Krita",
+      "imagen": "https://drive.google.com/file/d/1jDE7fw4ZLE_Oe0TVvt9AoCwoZtbSJmJ1/view?usp=share_link",
+      "stock": 3
+    },
+    {
+      "id": 6,
+      "nombre": "The Punisher",
+      "precio": 3000,
+      "categoria": "blancoynegro",
+      "descripcion":"Dibujo en tintas",
+      "imagen": "https://drive.google.com/file/d/1PGYQq-bacizaEEYGyzhBmu95azY1NVdV/view?usp=sharing",
+      "stock": 3
+    }
+  ]

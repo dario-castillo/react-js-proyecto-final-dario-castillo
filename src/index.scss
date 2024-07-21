@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$bgPrimary: rgb(160, 102, 194);
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: $bgPrimary;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.btn{
+  background-color: darkseagreen;
+}
+a.active{
+  @apply text-purple-900;
+}
+.contador button {
+  background-color: #a867da;
+  border: none;
+  color: rgb(118, 30, 159);
+  padding: 1px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
