@@ -1,8 +1,20 @@
-# React + Vite
+#### Mi proyecto:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este trabajo es para el curso de React Js que cursé en Coderhouse. Es un e-commerce de mi profesión como dibujante freelance. 😊
 
-Currently, two official plugins are available:
+##### Stack usado
+* "react": "^18.3.1",
+* "tailwindcss": "^3.4.4",
+* "react-router-dom": "^6.25.1"
+* "vite": "^5.3.1"
+* "lucide-react": "^0.408.0",
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##### Capturas de pantalla de cómo se ve la página
+![home](<Captura de pantalla 2024-07-21 a la(s) 9.18.03 p. m..png>)
+![productos](<Captura de pantalla 2024-07-21 a la(s) 9.18.34 p. m..png>)
+![categoria color](<Captura de pantalla 2024-07-21 a la(s) 9.18.39 p. m..png>)
+![categoria blanco y negro](<Captura de pantalla 2024-07-21 a la(s) 9.18.46 p. m..png>)
+![detalle producto](<Captura de pantalla 2024-07-21 a la(s) 9.19.21 p. m..png>)
+![formulario](<Captura de pantalla 2024-07-21 a la(s) 9.18.52 p. m..png>)
+
+
