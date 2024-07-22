@@ -8,6 +8,7 @@ Este trabajo es para el curso de React Js que cursé en Coderhouse. Es un e-comm
 * "react-router-dom": "^6.25.1"
 * "vite": "^5.3.1"
 * "lucide-react": "^0.408.0",
+* "firebase": "^10.12.4",
 
 ##### Capturas de pantalla de cómo se ve la página
 ![home](<Captura de pantalla 2024-07-21 a la(s) 9.18.03 p. m..png>)
