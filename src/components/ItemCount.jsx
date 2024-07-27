@@ -1,7 +1,7 @@
-const ItemCount = ( {cantidad, handleRestar, handleSumar} ) => {
+import React from 'react'
 
-    const handleAgregar = () => {
-    console.log(item)
+const ItemCount = ( {cantidad, handleRestar, handleSumar, handleAgregar} ) => {
+
         return (
             <div>
                 <div className="item-count">
@@ -13,6 +13,4 @@ const ItemCount = ( {cantidad, handleRestar, handleSumar} ) => {
             </div>
         )
     }
-
-}
 export default ItemCount

@@ -19,7 +19,6 @@ const DetalleContainer = () => {
                     { ...resp.data(), id: resp.id }
                 );
             })
-
     }, [id])
 
     return (

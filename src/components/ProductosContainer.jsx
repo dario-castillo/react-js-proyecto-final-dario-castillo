@@ -23,9 +23,7 @@ const ProductosContainer = () => {
                         return { ...doc.data(), id: doc.id }
                     })
             )
-
-            })
- 
+            }) 
     }, [categoria])
     
     return (

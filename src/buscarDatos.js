@@ -1,6 +1,5 @@
 import data from "./dibujos.json";
 
-
 export const buscarDatos = () => {
 
     return new Promise((resolve, reject) => {

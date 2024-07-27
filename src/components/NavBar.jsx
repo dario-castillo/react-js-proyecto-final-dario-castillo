@@ -1,33 +1,29 @@
-import { NavLink } from "react-router-dom"
+import { Palette } from "lucide-react"
+import { Link, NavLink } from "react-router-dom"
+import CartWidget from "./CartWidget"
 
 function NavBar(props){
 
-    const headerLinks =[
-        { texto : "About me", ruta : "/about" },
-        { texto : "Portfolio", ruta : "/portfolio" },
-        { texto : "Shop", ruta : "/shop" },
-        { texto : "Color", ruta : "/productos/color" },
-        { texto : "Blanco y negro", ruta : "/productos/blancoynegro" },
-        { texto : "Carrito", ruta : "/carrito" },
-    ]
-    const footerLinks = [
-        { texto : "Facebook", ruta : "/facebook" },
-        { texto : "Instagram", ruta : "/instagram" },
-        { texto : "Twitter", ruta : "/twitter" },
-    ]
-
-const metodo1 = `flex gap-4 ${props.isHeader ? "items-center text-lg align" : "justify-center p-2 text-xs"}`
-
-return (
-    <nav className={metodo1}>
-        {props.isHeader ? headerLinks.map((link, indice) =>{
-            return <NavLink to={link.ruta} key={indice}>{link.texto}</NavLink>
-        })
-        : footerLinks.map((link, indice) =>{
-            return <NavLink to={link.ruta} key={indice}>{link.texto}</NavLink>
-        })
+    if (props.isHeader == true) {
+        return(
+            <nav className="flex gap-4 text-lg justify-evenly align">
+                <NavLink to="/" className="flex items-center gap-2 text-xl font-bold"> <Palette/> Darío Castillo-Dibujante Freelance</NavLink>
+                <NavLink to="/about">About me</NavLink>
+                <NavLink to="/portfolio">Portfolio</NavLink>
+                <NavLink to="/shop">Shop</NavLink>
+                <NavLink to="/productos/color">Color</NavLink>
+                <NavLink to="/productos/blancoynegro">Blanco y negro</NavLink>
+                <CartWidget/>
+            </nav>
+        )
+    } else {
+        return(
+            <nav className="flex justify-center gap-4 p-2 text-xs">
+                <Link to="/facebook">Facebook</Link>
+                <Link to="/instagram">Instagram</Link>
+                <Link to="/twitter">Twitter</Link>
+            </nav>
+        )
     }
-    </nav>
-)
-}
+    }
 export default NavBar
